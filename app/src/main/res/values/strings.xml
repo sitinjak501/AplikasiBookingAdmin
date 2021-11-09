@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">AppBookAdmin</string>
+    <string-array name="Jam_Admin">
+        <item>Pilih Jam</item>
+        <item>08:00-08:59</item>
+        <item>09:00-09:59</item>
+        <item>10:00-10:59</item>
+        <item>11:00-11:59</item>
+        <item>12:00-12:59</item>
+        <item>13:00-13:59</item>
+        <item>14:00-14:59</item>
+        <item>15:00-15:59</item>
+        <item>16:00-16:59</item>
+        <item>17:00-17:59</item>
+        <item>18:00-18:59</item>
+        <item>19:00-19:59</item>
+        <item>20:00-20:59</item>
+        <item>21:00-21:59</item>
+
+    </string-array>
+
+    <string-array name="Harga">
+        <item>Harga</item>
+        <item>Rp. 125.000(SIANG)</item>
+        <item>Rp. 150.000(MALAM)</item>
+
+
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="nama">Nama</string>
+    <string name="email">Email</string>
+    <string name="no_hp">No. Hp</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="jam_bermain">Jam Bermain</string>
+    <string name="durasi">Durasi</string>
+</resources>

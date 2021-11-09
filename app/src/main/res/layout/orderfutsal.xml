@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp"
+    android:backgroundTint="@color/black"
+    android:id="@+id/cvorderfutsal"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@color/white"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginStart="10dp">
+
+        <TextView
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:id="@+id/NamaUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama"/>
+        <TextView
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:id="@+id/EmaiUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"/>
+                <TextView
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:id="@+id/TanggalUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tanggal Main"/>
+                <TextView
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:id="@+id/JamUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jam Main"/>
+                <TextView
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:id="@+id/DurasiUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Durasi"/>
+                <TextView
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:id="@+id/HpUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_hp"/>
+<!--                <EditText-->
+<!--                    android:padding="5dp"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:id="@+id/Status"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:hint="Status"/>-->
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
